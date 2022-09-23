@@ -1,0 +1,19 @@
+.Buscador-searchInput{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 10px ;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--colorMoradoOscuro);
+    box-shadow: 3px 3px rgb(64, 37, 76);
+}
+.Buscador-searchInput::placeholder{
+    color: var(--colorBorrado);
+}
+
+.Buscador-searchInput:focus{
+    outline: 3px solid var(--colorMoradoOscuro);
+}

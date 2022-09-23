@@ -1,0 +1,19 @@
+.CrearTareaBtn{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #fff;
+    color: rgb(70, 52, 77);
+    margin: 20px auto;
+    width: max-content;
+    height: 50px;
+    padding: 0 10px;
+
+    box-shadow: 3px 3px rgb(29, 20, 33);
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.CrearTareaBtn:hover{
+    color: var(--colorMoradoOscuro);
+    background-color: var(--colorHover);
+}

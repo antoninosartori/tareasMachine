@@ -1,0 +1,53 @@
+.Tarea-lista{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    color: var(--colorMoradoOscuro);
+}
+
+.tareaText{
+    margin: 0 30px 0 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tareaIcon{
+    font-size: 20px;
+}
+
+.iconDelete{ 
+    position: absolute;
+    right: 10px;
+    color: rgb(193, 75, 75);
+    text-shadow: 2px 2px rgb(93, 25, 25);
+}
+.iconDelete:hover{
+    color: rgb(194, 21, 21);
+    cursor: pointer;
+}
+
+.iconComplete{
+    color: #fff;
+    padding: 4px;
+    background-color: var(--colorMoradoMedio);
+    box-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+.iconComplete:hover{
+    cursor: pointer;
+    color: rgb(91, 207, 116);
+}
+
+.iconComplete-checkActive{
+    color: rgb(16, 196, 55);
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.tareaText-completed{
+    text-decoration: line-through;
+    color: var(--colorBorrado);
+}
